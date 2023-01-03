@@ -1,0 +1,42 @@
+[
+    {
+        "sub_category_id": 1,
+        "category_id": 1,
+        "sub_category_name": "web dasturlash"
+    },
+    {
+        "sub_category_id": 2,
+        "category_id": 1,
+        "sub_category_name": "mobil dasturlash"
+    },
+    {
+        "sub_category_id": 3,
+        "category_id": 2,
+        "sub_category_name": "ui/ux dizayn"
+    },
+    {
+        "sub_category_id": 4,
+        "category_id": 2,
+        "sub_category_name": "grafik dizayn"
+    },
+    {
+        "sub_category_id": 5,
+        "category_id": 3,
+        "sub_category_name": "menejment"
+    },
+    {
+        "sub_category_id": 6,
+        "category_id": 3,
+        "sub_category_name": "kredit va audit"
+    },
+    {
+        "sub_category_id": 6,
+        "category_id": 4,
+        "sub_category_name": "matematika"
+    },
+    {
+        "sub_category_id": 6,
+        "category_id": 4,
+        "sub_category_name": "fizika"
+    }
+]

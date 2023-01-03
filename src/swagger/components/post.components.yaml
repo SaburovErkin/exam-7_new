@@ -1,0 +1,59 @@
+components:
+  schemas:
+    postResponse:
+      type: object
+      properties:
+        postId:
+          type: integer
+        userName:
+          type: string
+        profession:
+          type: string
+        title:
+          type: string
+        desctiption:
+          type: string
+        body:
+          type: string
+        avatar:
+          type: string
+        place:
+          type: string
+        day:
+          type: string
+        time:
+          type: string
+        type:
+          type: string
+        link:
+          type: string
+        number:
+          type: string
+    AddPost:
+      type: object
+      properties:
+        userName:
+          type: string
+        profession:
+          type: string
+        title:
+          type: string
+        desctiption:
+          type: string
+        body:
+          type: string
+        avatar:
+          type: string
+          format: binary
+        place:
+          type: string
+        day:
+          type: string
+        time:
+          type: string
+        type:
+          type: string
+        link:
+          type: string
+        number:
+          type: string

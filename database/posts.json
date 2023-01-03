@@ -1,0 +1,32 @@
+[
+    {
+        "postId": 1,
+        "userName": "Ali",
+        "profession": "product designer",
+        "title": "birbalo elon 1",
+        "desctiption": "juda zor kelib korilar",
+        "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, saepe?",
+        "avatar": "ok.jpg",
+        "place": "myhome",
+        "day": "29.12.2022",
+        "time": "10:00",
+        "type": "online",
+        "link": "www.youtube.com/123",
+        "number": "+998777777777"
+    },
+    {
+        "postId": 2,
+        "userName": "vali",
+        "profession": "product designer",
+        "title": "birbalo elon 2",
+        "desctiption": "juda zor kelib korilar",
+        "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae, saepe?",
+        "avatar": "ok.jpg",
+        "place": "myhome",
+        "day": "30.12.2022",
+        "time": "12:00",
+        "type": "offline",
+        "link": "www.youtube.com/123",
+        "number": "+998777777777"
+    }
+]

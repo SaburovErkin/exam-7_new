@@ -1,0 +1,54 @@
+components:
+  schemas:
+    Response:
+      type: object
+      properties:
+        adminId:
+          type: integer
+        adminname:
+          type: string
+        gender:
+          type: string
+    Login:
+      type: object
+      properties:
+        adminname:
+          type: string
+        password:
+          type: string
+    LoginResponse:
+      type: object
+      properties:
+        status:
+          type: integer
+        message:
+          type: string
+        token:
+          type: string
+    Register:
+      type: object
+      properties:
+        adminname:
+          type: string
+        gender:
+          type: string
+        password:
+          type: string
+    RegisterResponse:
+      type: object
+      properties:
+        status:
+          type: integer
+        message:
+          type: string
+        token:
+          type: string
+        admin:
+          type: object
+          properties:
+            adminId:
+              type: integer
+            adminname: 
+              type: string
+            gender: 
+              type: string

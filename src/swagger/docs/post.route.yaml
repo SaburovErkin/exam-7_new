@@ -1,0 +1,130 @@
+/posts:
+  get:
+    tags:
+      - posts
+    responses:
+      '200':
+        description: All posts
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/postResponse'
+  post:
+    tags:
+      - posts
+    requestBody:
+      description: adding new posts
+      content:
+        multipart/form-data:
+          schema:
+            $ref: '#/components/schemas/AddPost'
+      required: true
+    responses:
+      '200':
+        description: All posts
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/postResponse'
+
+/posts?postId:
+  get:
+    tags:
+      - Search by
+    parameters:
+      - name: postId
+        in: query
+        description: search posts by post id
+        required: false
+    responses:
+      '200':
+        description: All posts
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/postResponse'
+
+/posts?userName:
+  get:
+    tags:
+      - Search by
+    parameters:
+      - name: userName
+        in: query
+        description: search posts by username
+        required: false
+    responses:
+      '200':
+        description: All posts
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/postResponse'
+
+/posts?title:
+  get:
+    tags:
+      - Search by
+    parameters:
+      - name: title
+        in: query
+        description: search posts by title
+        required: false
+    responses:
+      '200':
+        description: All posts
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/postResponse'
+
+/posts?day:
+  get:
+    tags:
+      - Search by
+    parameters:
+      - name: day
+        in: query
+        description: search posts by day
+        required: false
+    responses:
+      '200':
+        description: All posts
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/postResponse'
+
+/posts?time:
+  get:
+    tags:
+      - Search by
+    parameters:
+      - name: time
+        in: query
+        description: search posts by time
+        required: false
+    responses:
+      '200':
+        description: All posts
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/postResponse'
+
+/posts?type:
+  get:
+    tags:
+      - Search by
+    parameters:
+      - name: type
+        in: query
+        description: search posts by type
+        required: false
+    responses:
+      '200':
+        description: All posts
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/postResponse'

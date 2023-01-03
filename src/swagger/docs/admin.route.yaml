@@ -1,0 +1,52 @@
+/admins:
+  get:
+    tags:
+      - admins
+    responses:
+      '200':
+        description: admins
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Response'
+
+
+/login:
+  post:
+    tags:
+      - admins
+    requestBody:
+      description: login admin
+      content:
+        application/json:
+            schema:
+              $ref: '#/components/schemas/Login'
+      required: true
+    responses:
+      '200':
+        description: admins login
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LoginResponse'
+
+
+
+/register:
+  post:
+    tags:
+      - admins
+    requestBody:
+      description: register admin
+      content:
+        application/json:
+            schema:
+              $ref: '#/components/schemas/Register'
+      required: true
+    responses:
+      '201':
+        description: admins register
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RegisterResponse'

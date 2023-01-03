@@ -1,0 +1,14 @@
+[
+    {
+        "adminId": 1,
+        "adminname": "ali",
+        "password": "6e656676e46fbe15e5f74882aff541c6707547014580543ed6040ac7f17a6880",
+        "gender": "male"
+    },
+    {
+        "adminId": 2,
+        "adminname": "vali",
+        "password": "5994471abb01112afcc18159f6cc74b4f511b99806da59b3caf5a9c173cacfc5",
+        "gender": "male"
+    }
+]
